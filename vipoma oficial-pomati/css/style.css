@@ -1,0 +1,12 @@
+#Hijo1{
+    background-image: url(../img/escritorio.jpg);
+    height: 800px; 
+}
+#Hijo2{
+    background-image: url(../img/astronauta.jpg);
+    height: 800px;
+}
+#Hijo3{
+    background-image: url(../img/controles.jpg);
+    height: 800px;
+}

@@ -1,32 +1,4 @@
 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "1 2 2 3"
-    "1 5 5 3"
-    "1 5 5 3"
-    "1 4 4 4";
-    height: 1000px;
-}
-#Samurai{
-    grid-area: 1;
-    border: solid black;
-    background-image: url(https://http2.mlstatic.com/D_NQ_NP_707184-MLA44049132644_112020-O.jpg);
-}
-#Headset{
-    grid-area: 2;
-    border:solid black;
-}
-#Skins{
-    grid-area: 3;
-    border:solid black;
-}
-#Stream{
-    grid-area: 4;
-    border:solid black;
-}
-#Customs{
-    grid-area: 5;
-    border:solid black;
+    display: flex;
+    flex-direction: row;
 }

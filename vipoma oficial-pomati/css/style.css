@@ -1,19 +1,66 @@
-#Hijo1{
-    background-image: url(../img/escritorio.jpg);
-    height: 1000px; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-#Hijo2{
-    background-image: url(../img/astronauta.jpg);
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#Hijo3{
-    background-image: url(../img/controles.jpg);
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-color: black; }
+
+nav {
+  text-align: center;
+  background-color: black;
+  height: 50px;
+  border: solid;
+  color: red; }
+
+#Hijo1 {
+  background-image: url(https://i.blogs.es/5a88c6/razer-gaming-setup-8k-hr-1920x1080/1366_521.jpeg);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: 'Gelasio', serif;
+  font-size: 50px; }
+
+#Hijo2 {
+  background-image: url(https://www.xtrafondos.com/descargar.php?id=5498&resolucion=1920x1080);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: 'Gelasio', serif;
+  font-size: 50px; }
+
+#Hijo3 {
+  background-image: url(https://i.blogs.es/8baa22/federico-vitale-7qvjbalhefo-unsplash/1366_2000.jpg);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: 'Gelasio', serif;
+  font-size: 50px; }
+
+a {
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #807e7e; }
+
+#terms {
+  color: white;
+  font-size: 15px; }
+@media(max-width:365px){
+  a{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #Hijo1{
+    height: 200px;
+    font-size: 10px;
+  }
+  #Hijo2{
+    height: 200px;
+    font-size: 10px;
+  }
+  #Hijo3{
+    height: 200px;
+    font-size: 10px;
+  }
 }

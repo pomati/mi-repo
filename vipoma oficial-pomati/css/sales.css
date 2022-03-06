@@ -1,4 +1,53 @@
-main{
-    display: flex;
-    flex-direction: row;
+body {
+    background-color: rgb(29, 28, 28);
+    text-align: center;
+ }
+
+    h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+  
+  nav {
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    border: solid;
+    color: red; }
+    
+#Padre{
+    height: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#Hijo1{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/647/888/867/samurai-japan-warrior-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#Hijo2{
+    background-image: url(https://i.pinimg.com/originals/99/57/24/9957240125c40fe7bb3067a5f1a55eea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#Hijo3{
+    background-image: url(https://sm.ign.com/ign_in/screenshot/default/productslider-black-panther-and-red-carbon-skin_3kkh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#Hijo4{
+    background-image: url(https://www.hd-tecnologia.com/imagenes/articulos/2021/09/Twitch-demanda-a-dos-hate-raiders-en-busca-de-reducir-los-ataques-a-los-streamers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+section{
+    text-align: left;
+    background-color: white;
+    color: black;
 }

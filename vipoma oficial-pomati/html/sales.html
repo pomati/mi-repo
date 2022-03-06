@@ -9,91 +9,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@700&display=swap" rel="stylesheet">
     <title>Ofertas</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html">VIPOMA</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./sales.html">sales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./PC.html">pc stuff</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./aplication.html">aplication</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./cart.html">cart</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+  <nav>
+    <a href="../index.html">MAIN</a>
+    <a href="../html/PC.html"> PC STUFF</a>
+    <a href="../html/cart.html"> CART</a>
+    <a href="../html/aplication.html"> APLICATION</a>
+  </nav>
   </nav>
     <h1 class="animate__animated animate__lightSpeedInLeft">SALES</h1>
     <main>
         <div id="Padre">
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="https://i.pinimg.com/originals/a0/fd/b7/a0fdb74e86c33c2ca97ef70a47893063.jpg" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">SAMURAI</h5>
-                    <p class="card-text">esta oferta de unos auriculares y un mouse vienen con nuestro nuevo y mejorado diseño Samurai</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
+            <div id="Hijo1" class="animate__animated animate__pulse">Samurai
+              <p>proba nuestro pack de dispositivos</p>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="https://i.pinimg.com/236x/8d/be/e6/8dbee66f0fbcca2ada5c935314f4eac1.jpg" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Headset Op 2.0</h5>
-                  <p class="card-text">nuestro ultimo auricular inalambrico gamer con la mejor capacidad de sonido y microfono incluido. </p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
+            <div id="Hijo2" class="animate__animated animate__pulse">Headset OP v3
+                <p>ya sacamos nuestro nuevo y mejorado auricular inalambrico gamer, con almohadillas reforzadas, la mejor capacidad de sonido, y microfono incorporado</p>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="https://i.pinimg.com/originals/7d/1c/d1/7d1cd14090130bd584f0396ca4a8589f.jpg" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Console skins</h5>
-                    <p class="card-text">encuentra en nuestra variacion de skins la que mas te guste. Es importante que un gamer tenga su propio y personalizado mando </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="data:image/jpeg;base64,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" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Streaming</h5>
-                      <p class="card-text">sos streamer, mejor. Es importante que tengas la mejor calidad en tus productos, microfonos, auriculares para profesionales como vos. </p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-      </div>
+            <div id="Hijo3" class="animate__animated animate__pulse">Console skins
+              <p>es importante para un gamer tener su propio y personalizado mando, elige de nuestra gran variedad el que mas te guste y crea tu estilo en tu juego</p>
+            </div>
+             <div id="Hijo4" class="animate__animated animate__pulse">Streaming
+               <p>si sos streamer, estas de suerte, tenemos las mejores camaras y microfonos para que puedas tener tus strems con la mejor calidad de un profesional</p>
+          </div>
+        </div>
     </main>
     <section>
         <div id="terms">
@@ -106,10 +48,10 @@
             <p>6. Gift Card</p>
         </div>
         <nav>
-            <a href="index.html">MAIN</a>
-            <a href="PC.html">PC</a>
-            <a href="aplication.html">APLICATION</a>
-            <a href="cart.html">CART</a>
+            <a href="../index.html">MAIN</a>
+            <a href="./PC.html">PC</a>
+            <a href="./aplication.html">APLICATION</a>
+            <a href="./cart.html">CART</a>
         </nav>
     </section>
 </body>

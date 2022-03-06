@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+nav{
+    background-color: red;
+}
+#terms{
+    font-size: 13px;
+    background-color: gray;
+}

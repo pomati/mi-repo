@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/PC.css">
+    <link rel="stylesheet" href="../css/pc.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Rubik&display=swap" rel="stylesheet">
@@ -14,47 +14,63 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="../index.html">MAIN</a>
-            <a href="sales.html">SALES</a>
-            <a href="aplication.html">APLICATION</a>
-            <a href="cart.html">CART</a>
-           </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="../index.html">VIPOMA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./sales.html">SALES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./cart.html">CART</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mobile
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./aplication.html">Aplication</a></li>
+                      <li><a class="dropdown-item" href="./aplication.html">Android</a></li>
+                      <li><a class="dropdown-item" href="./aplication.html">IPhone</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <h1>Choose your PC</h1>
     </header>
-    <main>
-        <div class="card" style="width: 18rem;">
-            <img src="https://w0.peakpx.com/wallpaper/106/535/HD-wallpaper-pc-gamer.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">ELEGI TU PC</h5>
-              <p class="card-text">choose from the best PC, already assembled by our experts and with the best components on the market, the one you like the most</p>
-              <a href="cart.html" class="btn btn-primary">carrito</a>
-            </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="https://w0.peakpx.com/wallpaper/106/535/HD-wallpaper-pc-gamer.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ELEGI TU PC</h5>
+          <p class="card-text">choose from the best PC, already assembled by our experts and with the best components on the market, the one you like the most</p>
+          <p class="card-text"><small class="text-muted">Last updated 5 days ago</small></p>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="https://www.enretail.com/wp-content/uploads/2018/05/BladeRazer.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">PORTATILES</h5>
-              <p class="card-text">If you are looking for something that you can take everywhere, more accessible and comfortable, we present our gaming laptops</p>
-              <a href="cart.html" class="btn btn-primary">carrito</a>
-            </div>
+      </div>
+      <div class="card">
+        <img src="https://www.enretail.com/wp-content/uploads/2018/05/BladeRazer.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PORTATILES</h5>
+          <p class="card-text">If you are looking for something that you can take everywhere, more accessible and comfortable, we present our gaming laptops</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa2kP9pVDycK4z_znsePhCQlLJgtm4yOqaMsoZr9Mta_caJCnbKxI0HYLSXvFgAWkl48I&usqp=CAU" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">ARMA LA TUYA</h5>
-              <p class="card-text">If none of our options convinced you, don't worry, you can also build your PC like an expert and customize it with the components you want.</p>
-              <a href="cart.html" class="btn btn-primary">carrito</a>
-            </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa2kP9pVDycK4z_znsePhCQlLJgtm4yOqaMsoZr9Mta_caJCnbKxI0HYLSXvFgAWkl48I&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ARMA LA TUYA</h5>
+          <p class="card-text">If none of our options convinced you, don't worry, you can also build your PC like an expert and customize it with the components you want</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
-    </main>
-    <div id="promos">
-        <h2>TAKE YOUR TIME</h2>
-        <p>this might be the decision of your life, take your time to choose what do you want to do and what kind of pc you are looking for</p>
-        <h3>SUMMER SEASON
-            <p>Register your username and you might get some exclusive promos of the season</p>
-            <a href="cart.html">clickea aqui</a>
-        </h3>
+      </div>
     </div>
     <section>
         <div id="terms">
@@ -67,11 +83,12 @@
             <p>6. Gift Card</p>
         </div>
         <nav>
-            <a href="index.html">MAIN</a>
-            <a href="sales.html">SALES</a>
-            <a href="aplication.html">APLICATION</a>
-            <a href="cart.html">CART</a>
+            <li></li><a href="index.html">MAIN</a>
+            <li></li><a href="sales.html">SALES</a>
+            <li></li><a href="aplication.html">APLICATION</a>
+            <li></li><a href="cart.html">CART</a>
         </nav>
     </section>
+        
 </body>
 </html>
